@@ -1,10 +1,9 @@
 # RMS를 지지하는 공개 서한
-[![이 배지를 귀하의 저장소에 추가해주시기 바랍니다!](assets/badge-64-w-border.png)](https://github.com/rms-support-letter/rms-support-letter.github.io/new/master/_data/signed)
 
 서명하시려면, **[이곳](https://github.com/rms-support-letter/rms-support-letter.github.io/new/master/_data/signed)을 클릭하시고** `<username>.yaml` (`<username>`을 귀하의 이름으로 변경하십시오) 이라는 파일을 만드시로 다음과 같은 내용을 작성해주십시오.
 
 ```yaml
-name: <your name here>
+name: <your name here (optional organization or company)>
 link: <link to your profile or site>
 ```
 
@@ -12,7 +11,7 @@ link: <link to your profile or site>
 
 예시:
 ```yaml
-name: Example name
+name: Example name (Good company)
 link: https://example.com/
 ```
 
@@ -26,14 +25,17 @@ link: https://example.com/
 
 가능하다면 본 공개서한을 포럼이나 SNS에 공유해 주시고, 이 문제에 대해 도움이 될만한 기자들에게 알려주십시오.
 
-**Pull requests 는 12시간 내에 merge 됩니다 - 많은 양의 PR에 따라, PR들은 일괄적으로 처리됩니다**
-
 위 방법 대신에 이 저장소를 fork 하여 clone 한 후, `_data/signed/<username>.yaml` 를 직접 만들고 commit 한 후에 PR 을 제출하셔도 됩니다.
 
-Github 을 사용하지 않고 이 공개 서한을 지지하고 싶으시다면 다음을 참고하시기 바랍니다: https://codeberg.org/rms-support-letter/rms-support-letter/issues/1
+Github 을 사용하지 않고 이 공개 서한을 지지하고 싶으시다면 다음을 참고하시기 바랍니다: https://codeberg.org/rms-support-letter/rms-support-letter/issues/1  혹은 서명된 패치를 [signrms@prog.cf](mailto:signrms@prog.cf) 혹은 [~tyil/rms-support@lists.sr.ht](mailto:~tyil/rms-support@lists.sr.ht) 으로 주셔도 서명하실 수 있습니다.
 
-## Chatrooms
+서명하는 방법을 잘 모르시겠다면 [이 영상(영어)](https://invidious.snopyta.org/watch?v=1lz5S5oS8CU)을 참고하시기 바랍니다.
+
+**많은 PR이 들어오기 때문에, 모든 서명이 merge 되기까지 최대 12시간까지 걸릴 수도 있습니다.**
+
+## 채팅방
 
 - **Matrix.org:** #free-rms:matrix.org
 - **IRC:** chat.freenode.net 서버의 #free-rms 채널
 - **Discord:** https://discord.gg/7FWkxG4CsU
+- **Telegram:** https://t.me/free_rms

@@ -1,10 +1,10 @@
 # Открытое письмо в поддержку RMS
  [![Add this badge to your repo!](assets/badge-64-w-border.png)](https://github.com/rms-support-letter/rms-support-letter.github.io/new/master/_data/signed)
 
-Для того, чтобы подписать письмо, создайте в директории `_data/signed/` файл `<username>.yaml` со следующим содержимым:
+Для того, чтобы подписать письмо, создайте в директории [`_data/signed/`](./_data/signed/) файл `<username>.yaml` со следующим содержимым:
 
 ```yaml
-name: <укажите Ваше имя здесь>
+name: <укажите Ваше имя здесь (опционально, укажите проекты/организации)>
 link: <ссылка на Ваш профиль в социальной сети или на сайт>
 ```
 
@@ -12,7 +12,7 @@ link: <ссылка на Ваш профиль в социальной сети 
 
 Пример:
 ```yaml
-name: Иванов Иван
+name: Иванов Иван (Хорошая компания)
 link: https://example.com/
 ```
 
@@ -25,15 +25,16 @@ link: https://example.com/
 
 Если Вы можете, пожалуйста, распространите это письмо на форумах и в социальных сетях, а также расскажите о ситуации знакомым журналистам, которые смогут помочь нам в этом деле.
 
-**Пулл ревесты будут приняты в течении 12 часов — из-за большого количества PR, они будут приниматься группами**
 
 Альтернативный способ: создайте форк с созданным вручную файлом `_data/signed/<username>.yaml`, затем закоммитьте изменения и отправьте пулл реквест.
 
-Чтобы подписать открытое письмо без использования Github перейдите по ссылке: https://codeberg.org/rms-support-letter/rms-support-letter/issues/1.
+Подписать открытое письмо, без использования Github можно перейдя по ссылке: https://codeberg.org/rms-support-letter/rms-support-letter/issues/1, или пришлите патч с подписью на [signrms@prog.cf](mailto:signrms@prog.cf) или [~tyil/rms-support@lists.sr.ht](mailto:~tyil/rms-support@lists.sr.ht).
+
+**Пулл ревесты будут приняты в течении 12 часов — из-за большого количества PR, они будут приниматься группами**
 
 ## Чаты
 
-- **Matrix.org:** #free-rms:matrix.org
-- **IRC:** #free-rms at chat.freenode.net
+- **Matrix:** [+free-rms:matrix.org](https://matrix.to/#/+free-rms:matrix.org)
+- **IRC:** #free-rms на [freenode](https://freenode.net)
 - **Discord:** https://discord.gg/7FWkxG4CsU
 - **Telegram:** https://t.me/free_rms
